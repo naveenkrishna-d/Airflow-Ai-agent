@@ -1,0 +1,13 @@
+{
+  "ms_graph_client_id": "your_client_id",
+  "ms_graph_tenant_id": "your_tenant_id",
+  "ms_graph_client_secret": "your_client_secret",
+  "composer_url": "https://your-composer-environment-url",
+  "dag_id": "your_dag_id",
+  "email_recipients": ["recipient1@example.com", "recipient2@example.com"],
+  "headless": true,
+  "status_filter": "success",
+  "date_range": "2025-03-01 to 2025-03-13",
+  "email_subject": "DAG Run Report: {dag_id} - {status}",
+  "send_email": false
+}
